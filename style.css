@@ -41,8 +41,12 @@ main p {
   text-decoration: none;
 }
 
-.secondary-news a:hover {
-  text-decoration: underline var(--purple);
+.secondary-news h2 {
+  transition: color 0.15s ease-in-out;
+}
+
+.secondary-news h2:hover {
+  color: var(--light-purple);
 }
 
 /* ========== HEADER ========== */
