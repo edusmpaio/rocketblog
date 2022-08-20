@@ -42,7 +42,7 @@ main p {
 }
 
 .secondary-news a:hover {
-  text-decoration: underline;
+  text-decoration: underline var(--purple);
 }
 
 /* ========== HEADER ========== */
